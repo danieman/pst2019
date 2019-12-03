@@ -1,7 +1,7 @@
-### NPST
-### 03.12.19
+## NPST  
+03.12.19
 
-###Elektronisk krypteringsmaskin
+#### Elektronisk krypteringsmaskin
 
 NPST har avdekket at den norske overvåkingstjenesten overtok en rekke ENIGMA maskiner etter den tyske okkupasjonsmakten. ENIGMA ble i stort omfang benyttet av de fleste tyske militære styrker til både kryptering og dekryptering av informasjon under andre verdenskrig. Den var enkel å bruke, og antatt å være umulig å knekke. Dette var hovedårsaken til dens utbredelse. ENIGMA ble benyttet av den norske overvåkingstjenesten som en reserveløsning frem til 1960.
 
