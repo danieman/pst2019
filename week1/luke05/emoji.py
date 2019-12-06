@@ -2,11 +2,18 @@ import re
 import sys
 import requests
 
+
 # {"error":false,
 # "state":"[>🍕<, 🍉, 🐴, 🐟, 🚀, 🚩]",
 # "message":"Tilgjengelig ,n🚽er: ✨, ⚡, 🔑, 🤷. Eksempel: /api/🙃.js?commands=✨⚡✨"}
 # emojis = ['✨', '⚡', '🔑', '🤷']
 
+key = '⚡⚡⚡⚡✨🔑'
+r = requests.get(f'https://npst.no/api/🙃.js?commands={key}')
+print(r.json()['message'])
+
+
+"""
 # Start bruteforcing
 for s in range(6):
     for l in range(6):
@@ -28,3 +35,4 @@ for s in range(6):
             flag = re.search('PST\{.*?\}', r.text).group()
             print(f'\n{key}: {flag}\n')
             sys.exit(0)
+"""
